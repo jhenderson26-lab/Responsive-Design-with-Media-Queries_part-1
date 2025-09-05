@@ -1,4 +1,4 @@
-.title {
+.headline {
     font-size: 28px;
 }
 
@@ -9,7 +9,7 @@
     grid-template-rows: 2fr 1fr;
 } 
 
-.where_to_go a{
+.where_to_go .find_stuff{
     display: flex;
     justify-content: space-around;
     
@@ -22,7 +22,7 @@
     
 }
 
-.color-links a{
+.color-links .find_stuff{
     font-size: 23px;
     color: green;
 
@@ -43,6 +43,7 @@
     flex-direction: column;
     align-items: center;
     font-size: 18px;
+    
 }
 
 /* ----------^^^^^^^^^^-- everything above title "About Me" --^^^^-------*/
@@ -79,7 +80,7 @@
 
 }
 
-.listItems p{
+.listItems {
     text-align: center;
     color:gold;
 }
@@ -89,9 +90,7 @@
     flex-direction:row;
     
 }
-.picture img{
-    border: 3px solid white;
-}
+
 
 .center_pics {
     display:flex;
@@ -103,13 +102,13 @@
     /* display: block; */
     
     flex-direction:row;
-    border: 5px solid #000000;
+    border: 3px solid white;
     text-align: left;
 }
 
 
 
-.table_layout, .title, .table_text {
+.table_layout, .headline, .table_text {
     border: 1px solid goldenrod;
     text-align: center;
     
@@ -129,6 +128,7 @@
 
 .table_layout {
     width: 40%;
+    
 }
 
 .table {
@@ -141,6 +141,8 @@
 .my_picture, .schedule{
     margin: 3%;
 }
+
+
 
 .items {
     font-size: 18px;
